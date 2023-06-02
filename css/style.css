@@ -1,0 +1,790 @@
+*
+{
+	margin: 0 auto;
+	font-family: Montserrat;
+}
+ /*БЛОК-1 */
+.container_header
+{
+	width: 1630px;
+	height: 900px;
+}
+.container_1
+{
+	width: 1440px;	
+	height: 734px;
+}
+.header_block
+{
+	display: flex;
+	justify-content: space-around;
+}
+.navigation
+{
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 35px;
+}
+.item
+{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	display: flex;
+}
+.link
+{
+	text-decoration: none;
+	color: black;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 15px;
+}
+.logo
+{
+	width: 106px;	
+	height: 40px;
+	margin-top: 30px;
+}
+.pizza
+{
+	max-width: 1440px;
+  	background-image: url(../img/pizza_2.jpg); 
+  	background-repeat: no-repeat; 
+  	background-size: 100%;
+  	margin: 0 auto;
+}
+.block_one_section
+{	
+	display: flex;
+  	justify-content: flex-end;
+  	align-items: center;
+  	width: 1000px;
+    margin-right: 50px;
+    margin-top: 60px;
+}
+.student_photo
+{
+	width: 273px;	
+	height: 352px;	
+}
+.info
+{
+	width: 552px;	
+	height: 337px;
+	margin-left: 33px;	
+}
+.icon_ukraine
+{
+	width: 80px;	
+	height: 49px;		
+}
+.ukr
+{
+	width: 300px;	
+	display: flex;
+	margin-left: 0;
+}
+.kolo
+{
+	width: 261px;
+	height: 261px;
+	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 210px;
+	background: radial-gradient(68.31% 68.31% at 50% 50%, #6FACFD 0%, #075ACA 100%), #FFFFFF;
+	box-shadow: 0px 10px 50px #3272C8;
+}  
+.kolo_block
+{
+	width: 231px;	
+	height: 231px;
+	border-radius: 100%;
+	background: radial-gradient(68.31% 68.31% at 50% 50%, #FFFFFF 0%, #CADEF9 100%) , #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.mini_title
+{
+	font-family: Montserrat;
+	font-style: Bold;
+	font-size: 14px;
+	line-height: 21.44px;
+	line-height: 153.12%;
+	color: #2F80ED;
+}
+.text-kolo
+{
+	display: flex;
+}
+.rating1
+{
+	color: #FFA800;
+	margin-right: 5px;
+}
+.rating
+{
+	color: #FFA800;
+	margin-left: 5px;
+}
+.z
+{
+	color: #2F80ED;
+}
+.school
+{
+	font-family: Montserrat;
+	font-style: ExtraBold;
+	font-size: 14px;
+	line-height: 20.1px;
+	line-height: 143.55%;
+	color: #2F80ED;
+	
+}
+.schedule
+{
+	font-family: Montserrat;
+	font-style: Bold;
+	font-size: 10px;
+	line-height: 19.5px;
+	line-height: 195.04%;
+	color: #2F80ED;
+}
+.button
+{
+	width: 192px;
+	height: 50px;
+	border-radius: 50px;
+	background: #64E2CD;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 0;
+	margin-top: 29px;
+}
+.java
+{
+	font-family: Montserrat;
+	font-style: Regular;
+	font-size: 18px;
+	line-height: 22.39px;
+	line-height: 124.41%;
+	color: #FFFFFF;
+}
+.developer
+{
+	font-family: Montserrat;
+	font-style: Bold;
+	font-size: 40px;
+	line-height: 49.76px;
+	line-height: 124.41%;
+	color: #FFFFFF;
+}
+.ukraine
+{
+	font-family: Montserrat;
+	font-style: Medium;
+	font-size: 16px;
+	line-height: 19.91px;
+	line-height: 124.41%;
+	color: #FFFFFF;
+}
+.site
+{
+	font-family: Montserrat;
+	font-style: Bold;
+	font-size: 14px;
+	line-height: 17.42px;
+	line-height: 124.41%;
+	color: #FFFFFF;
+}
+.block_li
+{
+	width: 192px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #FFFFFF;
+	border-radius: 50px;
+}
+.link_2
+{
+	font-family: Montserrat;
+	font-style: Bold;
+	font-size: 14px;
+	line-height: 16.75px;
+	line-height: 119.62%;
+	color: #FFA800;
+	text-decoration: none;
+}
+.block_main
+{
+	width: 1440px;
+}
+
+/*БЛОК-2 */
+
+.pizza_section
+{
+	width: 1440px;
+  	background-image: url(../img/pizza_3.png); 
+  	background-repeat: no-repeat; 
+  	background-size: 100%;
+  	height: 700px;
+}
+.block_hkm
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 470px;
+}
+.title_school
+{
+	width: 550px;
+	height: 418px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 25px;
+}
+.years_block
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.year_work
+{
+	margin-right: 25px;
+	margin-top: 70px;
+}
+ .year_2
+ {
+ 	color: #FFA800;
+ }
+ .mini-text
+ {
+ 	color: #636363;
+ }
+ .footer_section
+ {
+ 	color: #2F80ED;
+ 	font-family: Montserrat;
+	font-style: Bold;
+	font-size: 20px;
+	line-height: 79.76px;
+	line-height: 184.41%;
+	margin-top: 50px;
+ }
+ .big_image_school
+{
+ 	background: radial-gradient(68.31% 68.31% at 50% 50%, #FFFFFF 0%, #CADEF9 100%), #FFFFFF;
+	box-shadow: 0px 10px 50px rgba(119, 157, 255, 0.3);
+    border-radius: 100%;
+    margin-bottom: 15px;
+}
+
+/*БЛОК-3 */
+
+.title_section_2
+{
+	font-family: 'Montserrat';
+	font-style: normal;
+    font-weight: 700;
+	font-size: 30px;
+	line-height: 124.41%;
+}
+.pizza_section_2
+{
+	max-width: 2100px;
+	height: 1300px;
+  	background-image: url(../img/pizza.jpg); 
+  	background-repeat: no-repeat; 
+}
+.block_section_2
+{
+	height: 1004px;
+	width: 1900px;
+}
+.html
+{
+	width: 98px;
+	height: 40px;
+	background: #FFA800;
+	border-radius: 10px 0px 0px 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.css
+{
+	width: 98px;
+	height: 40px;
+	background: #FFA800;
+	border-radius: 10px 0px 0px 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 14px;
+}
+.h
+{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 143.55%;
+	color: #FFFFFF;
+}
+.block-h-c
+{
+	display: flex;
+	flex-direction: column;
+}
+.c
+{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 143.55%;
+	color: #FFFFFF;
+}
+.my_work
+{
+	width: 565px;
+	height: 278px;
+	background: #FFFFFF;
+	display: flex;
+}
+.work
+{
+	width: 1170px;
+	height: 600px;
+	display: flex;
+  	flex-wrap: wrap;
+  	justify-content: space-between;
+  	margin-top: 140px;
+  	margin-left: 100px;
+}
+.project
+{
+	width: 419px;
+	height: 254px;
+	margin-top: 11px;
+	margin-left: 19px;
+}
+
+/*БЛОК-4 */
+
+.block_section_3
+{
+	width: 1440px;
+	height: 990px;
+	display: flex;
+	justify-content: center;
+}
+.container_3
+{
+	width: 1266px;
+	height: 983px;
+}
+.big_title_3
+{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 158.47%;
+	color: #000000;
+}
+.block_teacher
+{
+	height: 392px;
+	display: flex; 
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 144px;
+}
+.video
+{
+	width: 496px;
+	height: 382px;
+}
+.teacher
+{
+	width: 351px;
+	height: 212px;
+	border: 10px;
+	box-shadow: 0px 30px 100px rgba(47, 55, 237, 0.7);
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.block_lesson_text
+{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 79px;
+	position: relative;
+}
+.chat
+{
+	width: 61px;
+	height: 61px;
+}
+.text_section_3
+{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 143.55%;
+	color: #636363;
+}
+.experince
+{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 143.55%;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #2F80ED;
+}
+.rek
+{
+	color: #2F80ED;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 182.85%;
+}
+.name_teacher
+{
+	color: #FFA800;
+}
+.teacher_hkm
+{
+	color: #636363;
+}
+.div_kolo
+{
+	display: flex;
+	justify-content: flex-end;
+	position: absolute;
+    bottom: 230px;
+    z-index: -5;
+    left: 1010px
+}
+.kolo_2
+{
+	width: 147px;	
+	height: 147px;	
+	background: radial-gradient(68.31% 68.31% at 50% 50%, #FFFFFF 0%, #CADEF9 100%) , #FFFFFF;
+	border-radius: 50%;
+	box-shadow: 30% #779DFF;
+}
+
+/*БЛОК-5 */
+
+.block_section_4
+{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1440px
+}
+.title_4
+{
+	font-family: Montserrat;
+	font-style: Bold;
+	font-size: 30px;
+	line-height: 37.32px;
+	line-height: 124.41%;
+	color: #000000;
+	margin-bottom: 105px;
+}
+.container_4
+{
+	width: 1440px;	
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 195px;
+}
+.photo
+{
+	width: 332px;	
+	height: 268px;	
+	margin-top: 24px;
+	margin-left: 22px;
+}
+.div_colo
+{
+	display: flex;
+	justify-content: flex-end;
+	position: relative;
+}
+.kolo-3
+{
+	width: 231px;	
+	height: 231px;	
+	background: radial-gradient(68.31% 68.31% at 50% 50%, #FFFFFF 0%, #CADEF9 100%) , #FFFFFF;
+	border-radius: 50%;
+	margin-right: 190px;
+	position: absolute;
+	top: -40px;
+	right: -95px;
+	z-index: -5;
+}
+.title-5
+{
+	display: flex;
+	justify-content: center;
+	margin-top: 124px;
+}
+.container_5
+{
+	width: 1540px;	
+	height: 736px;	
+}
+.div5
+{
+	width: 1440px;
+}
+.pizza-4
+{
+	max-width: 827px;
+	height: 460px;	
+	background-image: url(../img/mini_pizza.png); 
+  	background-repeat: no-repeat;  
+  	display: flex;
+  	align-items: center;
+  	position: relative;
+
+}
+.m_div
+{
+	display: flex;
+	position: absolute;
+	right: -165px;
+}
+.week
+{
+	width: 271px;	
+	height: 293px;	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 25px;
+	margin-left: 25px;
+	box-shadow: 0px 20px 50px rgba(47, 55, 237, 0.12);
+}
+.kolo_yellow
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100px;
+	height: 100px;
+	background: #FFA800;
+	border-radius: 300px;
+	position: absolute;
+	left: 250px;
+	top: -50px;
+}
+.title_week
+{
+	font-family: Montserrat;
+	font-style: Bold;
+	font-size: 25px;
+	line-height: 39.62px;
+	line-height: 130%;
+	color: #2F80ED;
+	margin-top: 25px;
+}
+.volume
+{
+	font-family: Montserrat;
+	font-style: SemiBold;
+	font-size: 16px;
+	line-height: 25.36px;
+	line-height: 158.47%;
+	color: #2F80ED;
+	margin-bottom: 55px;
+}
+.green_button
+{
+	width: 192px;
+	height: 50px;
+	border-radius: 50px;
+	background: #52D1BC;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.h2_title
+{
+	font-family: Montserrat;
+	font-style: Bold;
+	font-size: 14px;
+	line-height: 22.19px;
+	line-height: 130%;
+	color: #FFFFFF;
+}
+.div_colo-2
+{
+	display: flex;
+	justify-content: flex-end;
+	position: relative;
+}
+.colo-4
+{
+	width: 231px;	
+	height: 231px;	
+	background: radial-gradient(68.31% 68.31% at 50% 50%, #6AAAFF 0%, #2F80ED 100%), #FFFFFF;
+	box-shadow: 0px 10px 50px rgba(119, 157, 255, 0.3);
+	border-radius: 50%;
+	margin-right: 190px;
+	position: absolute;
+	z-index: -5;
+	left: -85px;
+	bottom: 20px;
+}
+/*ПІДВАЛ САЙТУ*/
+
+.block_footer
+{
+	width: 1440px;
+	height: 300px;
+	background: #2F80ED;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.cities
+{
+	width: 1178px;
+	height: 90px;
+	display: flex;
+	justify-content: space-between;
+}
+.button_white
+{
+	width: 192px;
+	height: 50px;
+	border-radius: 50px;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.blue_block
+{
+	width: 1440px;	
+	height: 77px;	
+	background: #185FBF;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.title_citi
+{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 119.62%;
+	color: 	#FFFFFF;
+	margin-top: 15px; 
+
+}
+.citi
+{
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 109.62%;
+	color: #FFFFFF;
+	margin-top: 15px; 
+
+}
+.mini_text_footer
+{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 109.62%;
+	color: #FFFFFF;
+	margin-top: 15px; 
+
+}
+.logo-2
+{
+	width: 106px;	
+	height: 40px;
+}
+.r2023
+{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 119.62%;
+	color: 	#FFFFFF;
+}
+.text-footer_block
+{
+	width: 400px;
+	display: flex;
+	justify-content: space-between;
+}
+.text_footer
+{	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 119.62%;
+	color: #FFFFFF;
+	opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
